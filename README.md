@@ -1,9 +1,9 @@
 # Analisis Komparatif Logistic Regression dan Decision Tree Untuk Memprediksi Keselamatan Penumpang Kapal RMS Titanic
-#### Proyek Akhir Mata Kuliah Pengantar Data Sains
+
 #### Disusun oleh: Siti Fadilah Nurkhotimah 
 ---
 ## Deskripsi Proyek
-Proyek ini membandingkan algoritma Logistic Regression dan Decision Tree untuk mengidentifikasi pola signifikan pada karakteristik penumpang berdasarkan metrik evaluasi kinerja model. Penelitian ini bertujuan memberikan prediksi yang logis dan objektif pada data baru melalui perbandingan performa serta stabilitas model menggunakan uji K-Fold Cross Validation.
+Proyek ini membandingkan algoritma Logistic Regression dan Decision Tree untuk mengidentifikasi determinan utama tingkat keselamatan penumpang melalui Exploratory Data Analysis (EDA) dan feature engineering mendalam—mencakup ekstraksi gelar sosial (Title), imputasi data hilang berbasis demografi, serta encoding—yang menyoroti peran dominan variabel Title, Fare, Pclass, dan Sex. Evaluasi performa dan stabilitas model dilakukan menggunakan 5-Fold Cross Validation, metrik evaluasi klasifikasi, serta analisis Feature Importance pada model terbaik. Hasilnya menunjukkan Decision Tree mengungguli Logistic Regression dengan akurasi 82,12% dan F1-score 76,81%, lalu diterapkan untuk memprediksi probabilitas keselamatan pada 418 data penumpang baru secara objektif.
 
 ## Deskripsi Fitur Dataset
 - Survived = Status keselamatan (0 = Tidak Selamat, 1 = Selamat)
